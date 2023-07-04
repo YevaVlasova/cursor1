@@ -53,7 +53,7 @@ function assignMarks(students, marks) {
   const studentMarks = [];
 
   for (let i = 0; i < students.length; i++) {
-    const studentMark = ["студента " + students[i] + " за клопітку працю нагороджено оцінкою " + marks[i]]; // Роздаю оцінки
+    const studentMark = [students[i], marks[i]]; // Роздаю оцінки
     studentMarks.push(studentMark); // Масив з масивів :)
   }
 
